@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Apollo.Spotfiy
+namespace Apollo.ApolloProgram.Spotfiy
 {
     class SpotifyConnection
     {
@@ -16,7 +16,7 @@ namespace Apollo.Spotfiy
         private bool IsRunning;
 
         //Define CancellationToken for Tasks
-        private static CancellationTokenSource tokenSource = new CancellationTokenSource();
+        private static readonly CancellationTokenSource tokenSource = new CancellationTokenSource();
         private CancellationToken ct = tokenSource.Token;
         
 

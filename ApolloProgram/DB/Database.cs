@@ -6,16 +6,13 @@ using FaunaDB.Client;
 using FaunaDB.Types;
 using static FaunaDB.Query.Language;
 
-namespace Apollo.DB
+namespace Apollo.ApolloProgram.DB
 {
     public class Database
     {
         private static string Endpoint;
         private static readonly string DBSecret = "fnAEC1M2TRACAQS4FvXWPSNoC1OqQlJaWz7C5PBi";
         private static FaunaClient client;
-        private static List<Track> Tracks;
-        private static List<Playlist> Playlists;
-
 
         public Database()
         {

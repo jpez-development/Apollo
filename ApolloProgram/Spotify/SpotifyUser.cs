@@ -6,13 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 
-namespace Apollo.Spotify
+namespace Apollo.ApolloProgram.Spotify
 {
     class SpotifyUser
     {
-        private PrivateUser RawProfile;
-        private readonly IList<SimplePlaylist> RawPlaylists;
-
+        private readonly PrivateUser RawProfile;
         //Object properties
         public BitmapImage ProfilePicture;
         public string Name;
@@ -20,10 +18,9 @@ namespace Apollo.Spotify
         public string Country;
 
         //Define raw API output on initialisation
-        public SpotifyUser(PrivateUser profile, IList<SimplePlaylist> playlists)
+        public SpotifyUser(PrivateUser profile)
         {
             RawProfile = profile;
-            RawPlaylists = playlists;
             Init();
         }
 
