@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloProgram", "ApolloProgram\ApolloProgram.csproj", "{61C0C170-9763-4A8A-A397-C58C9FC6539D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloService", "ApolloService\ApolloService.csproj", "{C6AF789C-DB7F-4A34-95F0-C4DE503F28A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61C0C170-9763-4A8A-A397-C58C9FC6539D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C0C170-9763-4A8A-A397-C58C9FC6539D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C0C170-9763-4A8A-A397-C58C9FC6539D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C0C170-9763-4A8A-A397-C58C9FC6539D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6AF789C-DB7F-4A34-95F0-C4DE503F28A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6AF789C-DB7F-4A34-95F0-C4DE503F28A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6AF789C-DB7F-4A34-95F0-C4DE503F28A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6AF789C-DB7F-4A34-95F0-C4DE503F28A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3E9D2CB-235D-407F-9912-B58EC4DD78A1}
+	EndGlobalSection
+EndGlobal
