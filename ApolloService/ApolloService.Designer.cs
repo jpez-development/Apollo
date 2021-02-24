@@ -1,7 +1,7 @@
 ﻿
 namespace ApolloService
 {
-    partial class Service1
+    partial class ApolloService
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,8 +29,11 @@ namespace ApolloService
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            // 
+            // ApolloService
+            // 
+            this.ServiceName = "ApolloService";
+
         }
 
         #endregion
