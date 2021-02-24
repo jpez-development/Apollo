@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Apollo.ApolloProgram.Spotfiy
+namespace ApolloProgram.Spotfiy
 {
     class SpotifyConnection
     {

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 
-namespace Apollo.ApolloProgram.Spotify
+namespace ApolloProgram.Spotify
 {
     class SpotifyUser
     {

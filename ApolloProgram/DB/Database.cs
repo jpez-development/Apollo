@@ -6,7 +6,7 @@ using FaunaDB.Client;
 using FaunaDB.Types;
 using static FaunaDB.Query.Language;
 
-namespace Apollo.ApolloProgram.DB
+namespace ApolloProgram.DB
 {
     public class Database
     {
